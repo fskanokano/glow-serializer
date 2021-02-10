@@ -4,9 +4,6 @@ from .field import NestedField
 
 
 class SerializerMeta(type):
-    """
-    Serializer元类
-    """
 
     def __new__(mcs, name: str, bases: tuple, attrs: dict):
         meta = attrs.get('Meta', None)
