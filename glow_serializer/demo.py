@@ -4,7 +4,7 @@ from glow_serializer import Serializer, NestedField
 
 database = peewee.MySQLDatabase(
     # Your database name.
-    # 'xxxxx',
+    'xxxxx',
     host='localhost',
     user='root',
     password='123456',
